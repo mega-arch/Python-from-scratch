@@ -1,13 +1,8 @@
-# Implement Insertion Sort
-def insertion_sort(arr):
-    for i in range(1, len(arr)):
-        key = arr[i]
-        j = i - 1
-        while j >= 0 and key < arr[j]:  # Shift elements to the right
-            arr[j + 1] = arr[j]
-            j -= 1
-        arr[j + 1] = key  # Place the key at the correct position
-    return arr
+# leap year 
+def leapyear(year):
+    if (year%400==0 or (year%4==0 and year%100!=0)): #no.1 check year divisible both by 400 for centurian type then check not divisible by 100 but divisible by 4 for non century type year
+        return "Yes"
+    else:
+        return "No"
 
-# Test
-print(insertion_sort([12, 11, 13, 5, 6]))  # Output: [5, 6, 11, 12, 13]
+print(leapyear(2004))  # Output: Yes
