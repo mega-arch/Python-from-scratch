@@ -1,9 +1,6 @@
-# Implement Linear Search
-def linear_search(arr, target):
-    for i in range(len(arr)):
-        if arr[i] == target:
-            return i  # Return index if target is found
-    return -1  # Return -1 if target is not found
-
-# Test
-print(linear_search([10, 20, 30, 40], 30))  # Output: 2
+# n natural no. in reverse
+def rev(n):
+    while (n>=1): # executes until the n is not equal or less than 1
+        print(n,end=" ") #end used to seperate output in single line 
+        n-=1 # decreament
+rev(10)  # Output: 10 9 8 7 6 5 4 3 2 1 
