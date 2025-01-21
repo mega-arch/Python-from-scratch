@@ -10,5 +10,4 @@ def is_prime(num):
         return False
     else:
         return True
-# Test
 print(is_prime(29))  # Output: True
