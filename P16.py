@@ -13,15 +13,17 @@ def sum_of_naturals():
     print("sum of n naturals is:", sum)
 
 def age_classify():
-    a = int(input("enter age:"))
-    if a >= 0 and a <= 12: #if both the conditions are true then the statement executes
-        print("child")   
-    elif a >= 13 and a <= 19:
+    a=int(input("enter age:"))
+    if a>60:                       # going by the [0,60)method
+        print("senior")   
+    elif a>=13:
         print("teen")
-    elif a >= 20 and a <= 65:
+    elif a>=20:
         print("adult") 
+    elif a>=0:
+        print("Child") 
     else:
-        print("senior")
+        print("Invalid age!")
 
 def rand_num():
     a = random.randint(1,100) #from random module we use randint() which generates random integer value in given range
