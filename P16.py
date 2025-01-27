@@ -41,7 +41,7 @@ def input_validation():
 #menu driven program to access specific function 
 print("choice: 1. compare float \n 2.sum of natural no. \n 3. age classify \n 4.sum of 2 random no. \n 5. Input validate")
 
-match int(input("Choice[1,5]:"))
+match int(input("Choice[1,5]:")):
     case 1:
         compare_float()
     case 2:
