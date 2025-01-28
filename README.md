@@ -16,16 +16,3 @@ Array-Based Problems: These problems dive into working with arrays or lists, inc
 Sorting Problems: Learn the implementation of sorting algorithms, like bubble sort or insertion sort, and practice sorting arrays and understanding the time complexity of different methods.
 
 Searching Problems: Work on searching algorithms such as linear search or binary search, and solve problems that require efficient data retrieval from lists.
-
-# Data Science Challenges
-In addition to basic Python coding problems, this repository also includes 5 problems related to data science, which focus on essential tasks encountered in data analysis, machine learning, and data manipulation.
-
-Data Manipulation: Find Missing Values in a Dataset: Learn how to detect and find missing or null values in a dataset, which is a critical step when working with real-world data.
-
-Data Analysis: Calculate Mean, Median, and Mode: These problems help you practice basic statistical measures, which are commonly used in data science to summarize and describe datasets.
-
-Machine Learning: Simple Linear Regression: A hands-on problem for building a simple linear regression model from scratch, which helps you understand the fundamental principles of machine learning.
-
-Data Visualization: Scatter Plot: Although not a typical scatter plot in a graphical interface, this problem involves creating a simple scatter plot using ASCII art, helping you visualize data points in a basic way.
-
-Data Transformation: Normalize a Dataset: Learn how to normalize datasets using min-max normalization, which is often a necessary step in preprocessing data for machine learning models. 
