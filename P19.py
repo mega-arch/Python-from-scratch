@@ -1,4 +1,4 @@
-def WashingFuzzy():
+def WashingFuzzy(): #using simple if-else conditions
     weight=int(input("Enter load weight: "))
     if weight==0:
         print("Time required to wash is 0")
@@ -17,8 +17,8 @@ def AddSub():
     a= int(input("Enter any integer:"))
     b= int(input("Enter any integer:"))
 
-    if ((a+b)<0 ):
-        print("Sum is:",-(a+b))
+    if ((a+b)<0 ): #checks if sum of 2 no. is -ve
+        print("Sum is:",-(a+b)) #if -ve then multiplies - to it to make it positive
     else:
         print("Sum is:",a+b)
     if ((a-b)<0):
