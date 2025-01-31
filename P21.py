@@ -1,13 +1,3 @@
-#vowel=["a","e","i","o","u"]
-#abc=[]
-
-#match "hello".split() :
-#    for i in range(6):
-#        if a[i] in vowel:
-#            print(a[i])
-
-#        case "a":
-
 #infinite looping
 #import random
 #def random_gen():
@@ -62,14 +52,15 @@ def sentence_palindrome():
 def fizz_buzz():
     n=int(input("Enter num:"))
     for i in range(n+1): #including the input itself
-        if i%3==0 and i%5==0: #checks if div both by 3 & 5 (better to write first as python is an interpreted lang.)
-            print("FizzBuzz")
-        elif i%5==0: #checks if div only by 5
-            print("Buzz")
-        elif i%3==0: #checks if div only by 3
-            print("Fizz")
-        else:
-            print(i) #none condition satisfied it prints the num
+        print("FizzBuzz") if  i%3==0 and i%5==0 else print("Buzz")if i%5==0 else print("Fizz") if i%3==0 else print(i)
+        #if i%3==0 and i%5==0: #checks if div both by 3 & 5 (better to write first as python is an interpreted lang.)
+         #   print("FizzBuzz")
+        #elif i%5==0: #checks if div only by 5
+         #   print("Buzz")
+        #elif i%3==0: #checks if div only by 3
+         #   print("Fizz")
+        #else:
+         #   print(i) #none condition satisfied it prints the num
 
 from datetime import datetime #built in module we import class
 def date_day():
